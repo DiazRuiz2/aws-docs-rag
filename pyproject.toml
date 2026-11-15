@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aws-docs-rag"
+version = "0.1.0"
+description = "Local, evidence-grounded RAG over verified AWS documentation"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "langchain-core>=0.3,<2",
+  "langchain-chroma>=0.2,<2",
+  "langchain-huggingface>=0.1,<2",
+  "langchain-ollama>=0.2,<2",
+  "sentence-transformers>=3,<6",
+  "torch>=2.2,<3",
+  "python-dotenv>=1,<2",
+]
+
+[project.scripts]
+aws-rag = "aws_rag.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aws_rag"]
+
+# CPU wheels avoid installing several GB of unused CUDA libraries.
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

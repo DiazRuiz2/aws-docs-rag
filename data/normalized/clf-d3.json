@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "document_id": "clf-d3",
+  "title": "Content Domain 3: Cloud Technology and Services",
+  "language": "en",
+  "document_type": "exam_guide",
+  "source": {
+    "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+    "retrieval_url": null,
+    "source_format": "markdown",
+    "license": "CC BY-SA 4.0 (documentation; verify applicable terms)",
+    "attribution": "Amazon Web Services"
+  },
+  "retrieved_at": "2026-11-06T17:24:26.597176+00:00",
+  "raw_sha256": "5ad9b6dfb376385eb8d42508314489b5e41e4eeaf8353cfbb478e1ef4f91e55e",
+  "normalized_sha256": "948cdd784388841312f49e1d8863129c07818d65575f8d2b238fd9dbb71dae29",
+  "exam_domains": [
+    "3"
+  ],
+  "aws_services": [],
+  "sections": [
+    {
+      "section_id": "clf-d3#content-domain-3-cloud-technology-and-services-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-domain3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Domain 3 covers Cloud Technology and Services and represents 34% of the scored content on the exam.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Topics",
+          "links": [],
+          "attributes": {
+            "role": "bold_label"
+          }
+        },
+        {
+          "type": "list",
+          "text": "+ Task Statement 3.1: Define methods of deploying and operating in the AWS Cloud.\n+ Task Statement 3.2: Define the AWS global infrastructure.\n+ Task Statement 3.3: Identify AWS compute services.\n+ Task Statement 3.4: Identify AWS database services.\n+ Task Statement 3.5: Identify AWS network services.\n+ Task Statement 3.6: Identify AWS storage services.\n+ Task Statement 3.7: Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services.\n+ Task Statement 3.8: Identify services from other in-scope AWS service categories.",
+          "links": [
+            {
+              "label": "Task Statement 3.1: Define methods of deploying and operating in the AWS Cloud.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.1"
+            },
+            {
+              "label": "Task Statement 3.2: Define the AWS global infrastructure.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.2"
+            },
+            {
+              "label": "Task Statement 3.3: Identify AWS compute services.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.3"
+            },
+            {
+              "label": "Task Statement 3.4: Identify AWS database services.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.4"
+            },
+            {
+              "label": "Task Statement 3.5: Identify AWS network services.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.5"
+            },
+            {
+              "label": "Task Statement 3.6: Identify AWS storage services.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.6"
+            },
+            {
+              "label": "Task Statement 3.7: Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.7"
+            },
+            {
+              "label": "Task Statement 3.8: Identify services from other in-scope AWS service categories.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-1-define-methods-of-deploying-and-operating-in-the-aws-cloud-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.1: Define methods of deploying and operating in the AWS Cloud."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Various ways of provisioning and operating in the AWS Cloud\n+ Various ways to access AWS services\n+ Types of cloud deployment models",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Deciding between options such as programmatic access (for example, APIs, SDKs, CLI), the AWS Management Console, and infrastructure as code (IaC)\n+ Evaluating requirements to determine whether to use one-time operations or repeatable processes\n+ Identifying deployment models (for example, cloud, hybrid, on-premises)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-2-define-the-aws-global-infrastructure-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.2: Define the AWS global infrastructure."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS Regions, Availability Zones, and edge locations\n+ High availability\n+ Use of multiple Regions\n+ Benefits of edge locations",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Describing relationships among Regions, Availability Zones, and edge locations\n+ Describing how to achieve high availability by using multiple Availability Zones\n+ Recognizing that Availability Zones do not share single points of failure\n+ Describing when to use multiple Regions (for example, disaster recovery, business continuity, low latency for end users, data sovereignty)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-3-identify-aws-compute-services-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.3: Identify AWS compute services."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS compute services",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Recognizing the appropriate use of various EC2 instance types (for example, compute optimized, storage optimized)\n+ Recognizing the appropriate use of various container options (for example, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS])\n+ Recognizing the appropriate use of various serverless compute options (for example, AWS Fargate, Lambda)\n+ Recognizing that auto scaling provides elasticity\n+ Identifying the purposes of load balancers",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-4-identify-aws-database-services-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.4: Identify AWS database services."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS database services\n+ Database migration",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Deciding when to use EC2 hosted databases or AWS managed databases\n+ Identifying relational databases (for example, Amazon RDS, Amazon Aurora)\n+ Identifying NoSQL databases (for example, DynamoDB)\n+ Identifying memory-based databases (for example, Amazon ElastiCache)\n+ Identifying database migration tools (for example, AWS Database Migration Service [AWS DMS], AWS Schema Conversion Tool [AWS SCT])",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-5-identify-aws-network-services-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.5: Identify AWS network services."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS network services",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Identifying the components of a VPC (for example, subnets, gateways)\n+ Understanding security in a VPC (for example, network ACLs, security groups, Amazon Inspector)\n+ Understanding the purpose of Amazon Route 53\n+ Identifying network connectivity options to AWS (for example, AWS VPN, AWS Direct Connect)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-6-identify-aws-storage-services-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.6: Identify AWS storage services."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS storage services",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Identifying the uses for object storage\n+ Recognizing the differences in Amazon S3 storage classes\n+ Identifying block storage solutions (for example, Amazon Elastic Block Store [Amazon EBS], instance store)\n+ Identifying file services (for example, Amazon Elastic File System [Amazon EFS], Amazon FSx)\n+ Identifying cached file systems (for example, AWS Storage Gateway)\n+ Understanding use cases for lifecycle policies\n+ Understanding use cases for AWS Backup",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-7-identify-aws-artificial-intelligence-and-machine-learning-ai-ml-services-and-analytics-services-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.7: Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS AI/ML services\n+ AWS analytics services",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Understanding AI/ML services and the tasks that they accomplish (for example, Amazon SageMaker AI, Amazon Lex)\n+ Identifying the services for data analytics (for example, Amazon Athena, Amazon Kinesis, AWS Glue, Amazon Quick)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d3#task-statement-3-8-identify-services-from-other-in-scope-aws-service-categories-1",
+      "heading_path": [
+        "Content Domain 3: Cloud Technology and Services",
+        "Task Statement 3.8: Identify services from other in-scope AWS service categories."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html#cloud-practitioner-02-task3.8",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Application integration services of Amazon EventBridge, Amazon Simple Notification Service (Amazon SNS), and Amazon Simple Queue Service (Amazon SQS)\n+ Business application services of Amazon Connect and Amazon Simple Email Service (Amazon SES)\n+ Customer enablement services (for example, AWS Support)\n+ Developer tool services and capabilities (for example, AWS CodeBuild, AWS CodePipeline, and AWS X-Ray)\n+ End-user computing services of Amazon AppStream 2.0, Amazon WorkSpaces, and Amazon WorkSpaces Secure Browser\n+ Frontend web and mobile services of AWS Amplify\n+ IoT services (for example, AWS IoT Core)",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Choosing the appropriate service to deliver messages and to send alerts and notifications\n+ Choosing the appropriate service to meet business application needs\n+ Choosing the appropriate option for business support assistance\n+ Identifying the tools to develop, deploy, and troubleshoot applications\n+ Identifying the services that can present the output of virtual machines (VMs) on end-user machines\n+ Identifying the services that can create and deploy frontend and mobile services\n+ Identifying the services that manage IoT devices",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "NEEDS_REVIEW: Markdown parser supports a limited syntax subset",
+    "Draft 2020-12 validator unavailable; validated with Draft 7"
+  ]
+}

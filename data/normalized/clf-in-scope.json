@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0",
+  "document_id": "clf-in-scope",
+  "title": "In-Scope AWS Services",
+  "language": "en",
+  "document_type": "exam_guide",
+  "source": {
+    "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+    "retrieval_url": null,
+    "source_format": "markdown",
+    "license": "CC BY-SA 4.0 (documentation; verify applicable terms)",
+    "attribution": "Amazon Web Services"
+  },
+  "retrieved_at": "2026-11-06T17:24:26.788027+00:00",
+  "raw_sha256": "321aa97e217028f1efb1813b3f6c97e96623e17da532b04cb8dc7fae255228a4",
+  "normalized_sha256": "2d322dfbee5820b1d393e0c9c62e5a2452f19b013481498e8c697f1b3c2f15fa",
+  "exam_domains": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "aws_services": [],
+  "sections": [
+    {
+      "section_id": "clf-in-scope#in-scope-aws-services-1",
+      "heading_path": [
+        "In-Scope AWS Services"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-services",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The following list contains AWS services and features that are in scope for the AWS Certified Cloud Practitioner (CLF-C02) exam. This list is non-exhaustive and is subject to change. AWS offerings appear in categories that align with the offerings' primary functions.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Topics",
+          "links": [],
+          "attributes": {
+            "role": "bold_label"
+          }
+        },
+        {
+          "type": "list",
+          "text": "+ Analytics\n+ Application Integration\n+ Business Applications\n+ Cloud Financial Management\n+ Compute\n+ Containers\n+ Customer Enablement\n+ Database\n+ Developer Tools\n+ End User Computing\n+ Frontend Web and Mobile\n+ Internet of Things (IoT)\n+ Machine Learning\n+ Management and Governance\n+ Migration and Transfer\n+ Networking and Content Delivery\n+ Security, Identity, and Compliance\n+ Serverless\n+ Storage",
+          "links": [
+            {
+              "label": "Analytics",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-analytics"
+            },
+            {
+              "label": "Application Integration",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-application-integration"
+            },
+            {
+              "label": "Business Applications",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-business-applications"
+            },
+            {
+              "label": "Cloud Financial Management",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-cloud-financial-management"
+            },
+            {
+              "label": "Compute",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-compute"
+            },
+            {
+              "label": "Containers",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-containers"
+            },
+            {
+              "label": "Customer Enablement",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-customer-enablement"
+            },
+            {
+              "label": "Database",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-database"
+            },
+            {
+              "label": "Developer Tools",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-developer-tools"
+            },
+            {
+              "label": "End User Computing",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-end-user-computing"
+            },
+            {
+              "label": "Frontend Web and Mobile",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-frontend-web-mobile"
+            },
+            {
+              "label": "Internet of Things (IoT)",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-iot"
+            },
+            {
+              "label": "Machine Learning",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-machine-learning"
+            },
+            {
+              "label": "Management and Governance",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-management-governance"
+            },
+            {
+              "label": "Migration and Transfer",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-migration-transfer"
+            },
+            {
+              "label": "Networking and Content Delivery",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-networking"
+            },
+            {
+              "label": "Security, Identity, and Compliance",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-security"
+            },
+            {
+              "label": "Serverless",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-serverless"
+            },
+            {
+              "label": "Storage",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-storage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#analytics-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Analytics"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-analytics",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon Athena\n+ Amazon EMR\n+ AWS Glue\n+ Amazon Kinesis\n+ Amazon OpenSearch Service\n+ Amazon Quick\n+ Amazon Redshift",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#application-integration-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Application Integration"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-application-integration",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon EventBridge\n+ Amazon Simple Notification Service (Amazon SNS)\n+ Amazon Simple Queue Service (Amazon SQS)\n+ AWS Step Functions",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#business-applications-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Business Applications"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-business-applications",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon Connect\n+ Amazon Simple Email Service (Amazon SES)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#cloud-financial-management-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Cloud Financial Management"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-cloud-financial-management",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Budgets\n+ AWS Cost and Usage Reports\n+ AWS Cost Explorer\n+ AWS Marketplace",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#compute-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Compute"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-compute",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Batch\n+ Amazon EC2\n+ AWS Elastic Beanstalk\n+ Amazon Lightsail\n+ AWS Outposts",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#containers-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Containers"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-containers",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon Elastic Container Registry (Amazon ECR)\n+ Amazon Elastic Container Service (Amazon ECS)\n+ Amazon Elastic Kubernetes Service (Amazon EKS)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#customer-enablement-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Customer Enablement"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-customer-enablement",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Support",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#database-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Database"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-database",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon Aurora\n+ Amazon DocumentDB\n+ Amazon DynamoDB\n+ Amazon ElastiCache\n+ Amazon Neptune\n+ Amazon RDS",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#developer-tools-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Developer Tools"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-developer-tools",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS CLI\n+ AWS CodeBuild\n+ AWS CodePipeline\n+ AWS X-Ray",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#end-user-computing-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "End User Computing"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-end-user-computing",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon AppStream 2.0\n+ Amazon WorkSpaces\n+ Amazon WorkSpaces Secure Browser",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#frontend-web-and-mobile-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Frontend Web and Mobile"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-frontend-web-mobile",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Amplify",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#internet-of-things-iot-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Internet of Things (IoT)"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-iot",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS IoT Core",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#machine-learning-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Machine Learning"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-machine-learning",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon Comprehend\n+ Amazon Lex\n+ Amazon Polly\n+ Amazon Q\n+ Amazon Rekognition\n+ Amazon SageMaker AI\n+ Amazon Textract\n+ Amazon Transcribe\n+ Amazon Translate",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#management-and-governance-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Management and Governance"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-management-governance",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Auto Scaling\n+ AWS CloudFormation\n+ AWS CloudTrail\n+ Amazon CloudWatch\n+ AWS Compute Optimizer\n+ AWS Config\n+ AWS Control Tower\n+ AWS Health Dashboard\n+ AWS License Manager\n+ AWS Management Console\n+ AWS Organizations\n+ AWS Service Catalog\n+ Service Quotas\n+ AWS Systems Manager\n+ AWS Trusted Advisor\n+ AWS Well-Architected Tool",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#migration-and-transfer-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Migration and Transfer"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-migration-transfer",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Application Discovery Service\n+ AWS Application Migration Service\n+ AWS Database Migration Service (AWS DMS)\n+ Migration Evaluator\n+ AWS Migration Hub\n+ AWS Schema Conversion Tool (AWS SCT)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#networking-and-content-delivery-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Networking and Content Delivery"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-networking",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ Amazon API Gateway\n+ Amazon CloudFront\n+ AWS Direct Connect\n+ AWS Global Accelerator\n+ AWS PrivateLink\n+ Amazon Route 53\n+ AWS Transit Gateway\n+ Amazon VPC\n+ AWS VPN\n+ AWS Site-to-Site VPN\n+ AWS Client VPN",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#security-identity-and-compliance-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Security, Identity, and Compliance"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-security",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Artifact\n+ AWS Certificate Manager (ACM)\n+ AWS CloudHSM\n+ Amazon Cognito\n+ Amazon Detective\n+ AWS Directory Service\n+ AWS Firewall Manager\n+ Amazon GuardDuty\n+ AWS Identity and Access Management (IAM)\n+ AWS IAM Identity Center\n+ Amazon Inspector\n+ AWS Key Management Service (AWS KMS)\n+ Amazon Macie\n+ AWS Resource Access Manager (AWS RAM)\n+ AWS Secrets Manager\n+ AWS Security Hub\n+ AWS Shield\n+ AWS WAF",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#serverless-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Serverless"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-serverless",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Fargate\n+ AWS Lambda",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-in-scope#storage-1",
+      "heading_path": [
+        "In-Scope AWS Services",
+        "Storage"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html#clf-02-in-scope-storage",
+      "blocks": [
+        {
+          "type": "list",
+          "text": "+ AWS Backup\n+ Amazon Elastic Block Store (Amazon EBS)\n+ Amazon Elastic File System (Amazon EFS)\n+ AWS Elastic Disaster Recovery\n+ Amazon FSx\n+ Amazon S3\n+ Amazon S3 Glacier\n+ AWS Storage Gateway",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "NEEDS_REVIEW: Markdown parser supports a limited syntax subset",
+    "Draft 2020-12 validator unavailable; validated with Draft 7"
+  ]
+}

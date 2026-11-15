@@ -1,0 +1,85 @@
+{
+  "manifest_version": "1.0",
+  "sources": [
+    {
+      "id": "clf-d1",
+      "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain1.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 2587,
+      "sha256": "2500bfa4a4f2a275f81099dfb79641e319754b267a1582ec5a70b8562030fe0e"
+    },
+    {
+      "id": "clf-d2",
+      "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 3789,
+      "sha256": "e301a3be8d01f76b835111960f41803bd5852772dac03524d23404e099ed8b23"
+    },
+    {
+      "id": "clf-d3",
+      "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain3.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 6365,
+      "sha256": "5ad9b6dfb376385eb8d42508314489b5e41e4eeaf8353cfbb478e1ef4f91e55e"
+    },
+    {
+      "id": "clf-d4",
+      "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 3400,
+      "sha256": "0219e566d68a6844414a317df76f31421ad1f90985464c145db9b0cbe074b347"
+    },
+    {
+      "id": "clf-technologies",
+      "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-technologies-concepts.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 1109,
+      "sha256": "5560f4a149fe7571975e7f5e5c1c734974b520bebdca93d8bd10fa9fe12529d6"
+    },
+    {
+      "id": "clf-in-scope",
+      "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-02-in-scope-services.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 5174,
+      "sha256": "321aa97e217028f1efb1813b3f6c97e96623e17da532b04cb8dc7fae255228a4"
+    },
+    {
+      "id": "aws-cloud-definition",
+      "canonical_url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 1255,
+      "sha256": "555d7cc25a05ad37678132ebde767802562e36f1fbe004fb463f7d6b23489154"
+    },
+    {
+      "id": "aws-s3-overview",
+      "canonical_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 41081,
+      "sha256": "8c1a1fadd484d91ce3e847329c568eb9147e542cdeb30fb154ec48ea60d938a0"
+    },
+    {
+      "id": "aws-s3-storage-classes",
+      "canonical_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 20009,
+      "sha256": "5fc16b418f784b04f68a3c0208cec9b190e1cd8b6893d5d24d0ffa5c61085982"
+    },
+    {
+      "id": "aws-iam-overview",
+      "canonical_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+      "status": "IMPORTED",
+      "format": "markdown",
+      "bytes": 4795,
+      "sha256": "f1969c9949b339a2143cee731894680731b24b81240e64ba942c3a74f720b2e8"
+    }
+  ]
+}

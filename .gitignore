@@ -1,0 +1,16 @@
+.venv/
+.rag_state/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+dist/
+*.egg-info/
+
+# Local account and agent state
+.aws/
+.agents/
+.codex/
+.env.*
+!.env.example
+/demo.json

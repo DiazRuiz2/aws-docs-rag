@@ -1,0 +1,212 @@
+{
+  "recorded_at": "2026-11-15T17:32:33.538936+00:00",
+  "question": "What version ID do existing objects have when bucket versioning is first enabled?",
+  "configuration": {
+    "source_dir": "data",
+    "state_dir": "<state_dir>",
+    "embedding_model": "<state_dir>/models/bge-small-en-v1.5",
+    "embedding_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "embedding_device": "cpu",
+    "llm_model": "qwen3:1.7b",
+    "ollama_host": "http://localhost:11434",
+    "top_k": "4",
+    "chunk_tokens": "440",
+    "chunk_overlap": "40",
+    "context_tokens": "3000",
+    "ollama_num_ctx": "8192",
+    "temperature": "0.0",
+    "questions": "evaluation/questions.jsonl"
+  },
+  "index_created_at": 1794527119.1052203,
+  "result": {
+    "answer": "When bucket versioning is first enabled, existing objects have a version ID of null.",
+    "abstained": false,
+    "references": [
+      {
+        "label": "S1",
+        "source_path": "data/normalized/aws-s3-overview.json",
+        "section_id": "aws-s3-overview#version-id-1",
+        "spans": [
+          {
+            "pointer": "/sections/15/blocks/0/text",
+            "start": 0,
+            "end": 369
+          },
+          {
+            "pointer": "/sections/15/blocks/1/text",
+            "start": 0,
+            "end": 84
+          }
+        ],
+        "quote": "Objects that already existed in the bucket at the time that you enable versioning have a version ID of null."
+      }
+    ],
+    "retrieval_seconds": 0.5745972409999922,
+    "generation_seconds": 19.16037087199993,
+    "retrieved": [
+      {
+        "rank": 1,
+        "text": "What is Amazon S3? > How Amazon S3 works > Version ID\n\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each object added to the bucket. Objects that already existed in the bucket at the time that you enable versioning have a version ID of null. If you modify these (or any other) objects with other operations, such as CopyObject and PutObject, the new objects get a unique version ID.\n\nFor more information, see Retaining multiple versions of objects with S3 Versioning.",
+        "metadata": {
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "doc_id": "aws-s3-overview",
+          "chunk_id": "252f0d622e1a592944469e4bf432dedb5bf4e6e828a477008856b53c6cf82738",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#BasicsVersionID",
+          "section_id": "aws-s3-overview#version-id-1",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "source_locator": "/sections/15",
+          "heading_path": "[\"What is Amazon S3?\", \"How Amazon S3 works\", \"Version ID\"]",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "source_spans": "[{\"pointer\": \"/sections/15/blocks/0/text\", \"start\": 0, \"end\": 369}, {\"pointer\": \"/sections/15/blocks/1/text\", \"start\": 0, \"end\": 84}]"
+        },
+        "source_path": "data/normalized/aws-s3-overview.json",
+        "source_locator": "/sections/15",
+        "distance": 0.158766508102417
+      },
+      {
+        "rank": 2,
+        "text": "What is Amazon S3? > How Amazon S3 works > S3 Versioning\n\nYou can use S3 Versioning to keep multiple variants of an object in the same bucket. With S3 Versioning, you can preserve, retrieve, and restore every version of every object stored in your buckets. You can easily recover from both unintended user actions and application failures.\n\nFor more information, see Retaining multiple versions of objects with S3 Versioning.",
+        "metadata": {
+          "doc_id": "aws-s3-overview",
+          "chunk_id": "36a5b68bda7e7ef3144e85435feaf66917a6601edba2aa1b4563c11ab04ad359",
+          "source_locator": "/sections/14",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#Versions",
+          "source_spans": "[{\"pointer\": \"/sections/14/blocks/0/text\", \"start\": 0, \"end\": 281}, {\"pointer\": \"/sections/14/blocks/1/text\", \"start\": 0, \"end\": 84}]",
+          "section_id": "aws-s3-overview#s3-versioning-1",
+          "heading_path": "[\"What is Amazon S3?\", \"How Amazon S3 works\", \"S3 Versioning\"]"
+        },
+        "source_path": "data/normalized/aws-s3-overview.json",
+        "source_locator": "/sections/14",
+        "distance": 0.23769575357437134
+      },
+      {
+        "rank": 3,
+        "text": "What is Amazon S3? > Amazon S3 data consistency model\n\nAmazon S3 does not support object locking for concurrent writers. If two PUT requests are simultaneously made to the same key, the request with the latest timestamp wins. If this is an issue, you must build an object-locking mechanism into your application. Updates are key-based. There is no way to make atomic updates across keys. For example, you cannot make the update of one key dependent on the update of another key unless you design this functionality into your application.\n\nBucket configurations have an eventual consistency model. Specifically, this means that:\n\n+ If you delete a bucket and immediately list all buckets, the deleted bucket might still appear in the list.\n+ If you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (PUT or DELETE requests) on objects in the bucket.",
+        "metadata": {
+          "doc_id": "aws-s3-overview",
+          "section_id": "aws-s3-overview#amazon-s3-data-consistency-model-1",
+          "chunk_id": "f5712e92516791d20b9c6d3c4b843fda3a014217820b221243cddc4dcc33be96",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "source_locator": "/sections/20",
+          "source_spans": "[{\"pointer\": \"/sections/20/blocks/4/text\", \"start\": 0, \"end\": 482}, {\"pointer\": \"/sections/20/blocks/5/text\", \"start\": 0, \"end\": 88}, {\"pointer\": \"/sections/20/blocks/6/text\", \"start\": 0, \"end\": 395}]",
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#ConsistencyModel",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "heading_path": "[\"What is Amazon S3?\", \"Amazon S3 data consistency model\"]"
+        },
+        "source_path": "data/normalized/aws-s3-overview.json",
+        "source_locator": "/sections/20",
+        "distance": 0.2925441861152649
+      },
+      {
+        "rank": 4,
+        "text": "What is Amazon S3? > How Amazon S3 works > Keys\n\nAn object key (or key name) is the unique identifier for an object within a bucket. Every object in a bucket has exactly one key. The combination of a bucket, object key, and optionally, version ID (if S3 Versioning is enabled for the bucket) uniquely identify each object. So you can think of Amazon S3 as a basic data map between \"bucket \\+ key \\+ version\" and the object itself.\n\nEvery object in Amazon S3 can be uniquely addressed through the combination of the web service endpoint, bucket name, key, and optionally, a version. For example, in the URL https://{{amzn-s3-demo-bucket}}.s3.us-west-2.amazonaws.com/photos/puppy.jpg, {{amzn-s3-demo-bucket}} is the name of the bucket and photos/puppy.jpg is the key.\n\nFor more information about object keys, see Naming Amazon S3 objects.",
+        "metadata": {
+          "doc_id": "aws-s3-overview",
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#BasicsKeys",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "source_spans": "[{\"pointer\": \"/sections/13/blocks/0/text\", \"start\": 0, \"end\": 381}, {\"pointer\": \"/sections/13/blocks/1/text\", \"start\": 0, \"end\": 333}, {\"pointer\": \"/sections/13/blocks/2/text\", \"start\": 0, \"end\": 69}]",
+          "source_locator": "/sections/13",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "chunk_id": "172c14c4f33b42a7793d125142bd9f1847033db2d12aac4f113f153443e11689",
+          "section_id": "aws-s3-overview#keys-1",
+          "heading_path": "[\"What is Amazon S3?\", \"How Amazon S3 works\", \"Keys\"]"
+        },
+        "source_path": "data/normalized/aws-s3-overview.json",
+        "source_locator": "/sections/13",
+        "distance": 0.3062030076980591
+      }
+    ],
+    "context": "[S1]\nWhat is Amazon S3? > How Amazon S3 works > Version ID\n\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each object added to the bucket. Objects that already existed in the bucket at the time that you enable versioning have a version ID of null. If you modify these (or any other) objects with other operations, such as CopyObject and PutObject, the new objects get a unique version ID.\n\nFor more information, see Retaining multiple versions of objects with S3 Versioning.\n\n[S2]\nWhat is Amazon S3? > How Amazon S3 works > S3 Versioning\n\nYou can use S3 Versioning to keep multiple variants of an object in the same bucket. With S3 Versioning, you can preserve, retrieve, and restore every version of every object stored in your buckets. You can easily recover from both unintended user actions and application failures.\n\nFor more information, see Retaining multiple versions of objects with S3 Versioning.\n\n[S3]\nWhat is Amazon S3? > Amazon S3 data consistency model\n\nAmazon S3 does not support object locking for concurrent writers. If two PUT requests are simultaneously made to the same key, the request with the latest timestamp wins. If this is an issue, you must build an object-locking mechanism into your application. Updates are key-based. There is no way to make atomic updates across keys. For example, you cannot make the update of one key dependent on the update of another key unless you design this functionality into your application.\n\nBucket configurations have an eventual consistency model. Specifically, this means that:\n\n+ If you delete a bucket and immediately list all buckets, the deleted bucket might still appear in the list.\n+ If you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (PUT or DELETE requests) on objects in the bucket.\n\n[S4]\nWhat is Amazon S3? > How Amazon S3 works > Keys\n\nAn object key (or key name) is the unique identifier for an object within a bucket. Every object in a bucket has exactly one key. The combination of a bucket, object key, and optionally, version ID (if S3 Versioning is enabled for the bucket) uniquely identify each object. So you can think of Amazon S3 as a basic data map between \"bucket \\+ key \\+ version\" and the object itself.\n\nEvery object in Amazon S3 can be uniquely addressed through the combination of the web service endpoint, bucket name, key, and optionally, a version. For example, in the URL https://{{amzn-s3-demo-bucket}}.s3.us-west-2.amazonaws.com/photos/puppy.jpg, {{amzn-s3-demo-bucket}} is the name of the bucket and photos/puppy.jpg is the key.\n\nFor more information about object keys, see Naming Amazon S3 objects.",
+    "evidence": [
+      {
+        "label": "S1",
+        "text": "What is Amazon S3? > How Amazon S3 works > Version ID\n\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each object added to the bucket. Objects that already existed in the bucket at the time that you enable versioning have a version ID of null. If you modify these (or any other) objects with other operations, such as CopyObject and PutObject, the new objects get a unique version ID.\n\nFor more information, see Retaining multiple versions of objects with S3 Versioning.",
+        "metadata": {
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "doc_id": "aws-s3-overview",
+          "chunk_id": "252f0d622e1a592944469e4bf432dedb5bf4e6e828a477008856b53c6cf82738",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#BasicsVersionID",
+          "section_id": "aws-s3-overview#version-id-1",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "source_locator": "/sections/15",
+          "heading_path": "[\"What is Amazon S3?\", \"How Amazon S3 works\", \"Version ID\"]",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "source_spans": "[{\"pointer\": \"/sections/15/blocks/0/text\", \"start\": 0, \"end\": 369}, {\"pointer\": \"/sections/15/blocks/1/text\", \"start\": 0, \"end\": 84}]"
+        },
+        "distance": 0.158766508102417
+      },
+      {
+        "label": "S2",
+        "text": "What is Amazon S3? > How Amazon S3 works > S3 Versioning\n\nYou can use S3 Versioning to keep multiple variants of an object in the same bucket. With S3 Versioning, you can preserve, retrieve, and restore every version of every object stored in your buckets. You can easily recover from both unintended user actions and application failures.\n\nFor more information, see Retaining multiple versions of objects with S3 Versioning.",
+        "metadata": {
+          "doc_id": "aws-s3-overview",
+          "chunk_id": "36a5b68bda7e7ef3144e85435feaf66917a6601edba2aa1b4563c11ab04ad359",
+          "source_locator": "/sections/14",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#Versions",
+          "source_spans": "[{\"pointer\": \"/sections/14/blocks/0/text\", \"start\": 0, \"end\": 281}, {\"pointer\": \"/sections/14/blocks/1/text\", \"start\": 0, \"end\": 84}]",
+          "section_id": "aws-s3-overview#s3-versioning-1",
+          "heading_path": "[\"What is Amazon S3?\", \"How Amazon S3 works\", \"S3 Versioning\"]"
+        },
+        "distance": 0.23769575357437134
+      },
+      {
+        "label": "S3",
+        "text": "What is Amazon S3? > Amazon S3 data consistency model\n\nAmazon S3 does not support object locking for concurrent writers. If two PUT requests are simultaneously made to the same key, the request with the latest timestamp wins. If this is an issue, you must build an object-locking mechanism into your application. Updates are key-based. There is no way to make atomic updates across keys. For example, you cannot make the update of one key dependent on the update of another key unless you design this functionality into your application.\n\nBucket configurations have an eventual consistency model. Specifically, this means that:\n\n+ If you delete a bucket and immediately list all buckets, the deleted bucket might still appear in the list.\n+ If you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (PUT or DELETE requests) on objects in the bucket.",
+        "metadata": {
+          "doc_id": "aws-s3-overview",
+          "section_id": "aws-s3-overview#amazon-s3-data-consistency-model-1",
+          "chunk_id": "f5712e92516791d20b9c6d3c4b843fda3a014217820b221243cddc4dcc33be96",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "source_locator": "/sections/20",
+          "source_spans": "[{\"pointer\": \"/sections/20/blocks/4/text\", \"start\": 0, \"end\": 482}, {\"pointer\": \"/sections/20/blocks/5/text\", \"start\": 0, \"end\": 88}, {\"pointer\": \"/sections/20/blocks/6/text\", \"start\": 0, \"end\": 395}]",
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#ConsistencyModel",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "heading_path": "[\"What is Amazon S3?\", \"Amazon S3 data consistency model\"]"
+        },
+        "distance": 0.2925441861152649
+      },
+      {
+        "label": "S4",
+        "text": "What is Amazon S3? > How Amazon S3 works > Keys\n\nAn object key (or key name) is the unique identifier for an object within a bucket. Every object in a bucket has exactly one key. The combination of a bucket, object key, and optionally, version ID (if S3 Versioning is enabled for the bucket) uniquely identify each object. So you can think of Amazon S3 as a basic data map between \"bucket \\+ key \\+ version\" and the object itself.\n\nEvery object in Amazon S3 can be uniquely addressed through the combination of the web service endpoint, bucket name, key, and optionally, a version. For example, in the URL https://{{amzn-s3-demo-bucket}}.s3.us-west-2.amazonaws.com/photos/puppy.jpg, {{amzn-s3-demo-bucket}} is the name of the bucket and photos/puppy.jpg is the key.\n\nFor more information about object keys, see Naming Amazon S3 objects.",
+        "metadata": {
+          "doc_id": "aws-s3-overview",
+          "warnings": "[\"NEEDS_REVIEW: Markdown parser supports a limited syntax subset\", \"Draft 2020-12 validator unavailable; validated with Draft 7\"]",
+          "source_url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#BasicsKeys",
+          "source_path": "data/normalized/aws-s3-overview.json",
+          "source_spans": "[{\"pointer\": \"/sections/13/blocks/0/text\", \"start\": 0, \"end\": 381}, {\"pointer\": \"/sections/13/blocks/1/text\", \"start\": 0, \"end\": 333}, {\"pointer\": \"/sections/13/blocks/2/text\", \"start\": 0, \"end\": 69}]",
+          "source_locator": "/sections/13",
+          "file_hash": "bf7d5afd85e48ccd0ce4c2858e47ccd9239465873e3eb0719b539ed2b5994380",
+          "chunk_id": "172c14c4f33b42a7793d125142bd9f1847033db2d12aac4f113f153443e11689",
+          "section_id": "aws-s3-overview#keys-1",
+          "heading_path": "[\"What is Amazon S3?\", \"How Amazon S3 works\", \"Keys\"]"
+        },
+        "distance": 0.3062030076980591
+      }
+    ]
+  },
+  "raw_response": "{ \"answerable\": true, \"answer\": \"When bucket versioning is first enabled, existing objects have a version ID of null.\", \"support\": [{\"source\": \"S1\", \"quote\": \"Objects that already existed in the bucket at the time that you enable versioning have a version ID of null.\"}] }",
+  "response_metadata": {
+    "model": "qwen3:1.7b",
+    "created_at": "2026-11-15T17:32:33.535877853Z",
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 19099451724,
+    "load_duration": 68835710,
+    "prompt_eval_count": 796,
+    "prompt_eval_duration": 108382000,
+    "eval_count": 271,
+    "eval_duration": 18807601000,
+    "logprobs": null,
+    "model_name": "qwen3:1.7b",
+    "model_provider": "ollama"
+  }
+}

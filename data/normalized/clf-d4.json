@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "document_id": "clf-d4",
+  "title": "Content Domain 4: Billing, Pricing, and Support",
+  "language": "en",
+  "document_type": "exam_guide",
+  "source": {
+    "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html",
+    "retrieval_url": null,
+    "source_format": "markdown",
+    "license": "CC BY-SA 4.0 (documentation; verify applicable terms)",
+    "attribution": "Amazon Web Services"
+  },
+  "retrieved_at": "2026-11-06T17:24:26.663671+00:00",
+  "raw_sha256": "0219e566d68a6844414a317df76f31421ad1f90985464c145db9b0cbe074b347",
+  "normalized_sha256": "3ab15eef018e107c319fa7b41ac8b32a5f1be58c7f01c5e6c370b2ad5b47bc9f",
+  "exam_domains": [
+    "4"
+  ],
+  "aws_services": [],
+  "sections": [
+    {
+      "section_id": "clf-d4#content-domain-4-billing-pricing-and-support-1",
+      "heading_path": [
+        "Content Domain 4: Billing, Pricing, and Support"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-domain4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Domain 4 covers Billing, Pricing, and Support and represents 12% of the scored content on the exam.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Topics",
+          "links": [],
+          "attributes": {
+            "role": "bold_label"
+          }
+        },
+        {
+          "type": "list",
+          "text": "+ Task Statement 4.1: Compare AWS pricing models.\n+ Task Statement 4.2: Understand resources for billing, budget, and cost management.\n+ Task Statement 4.3: Identify AWS technical resources and AWS Support options.",
+          "links": [
+            {
+              "label": "Task Statement 4.1: Compare AWS pricing models.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-task4.1"
+            },
+            {
+              "label": "Task Statement 4.2: Understand resources for billing, budget, and cost management.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-task4.2"
+            },
+            {
+              "label": "Task Statement 4.3: Identify AWS technical resources and AWS Support options.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-task4.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d4#task-statement-4-1-compare-aws-pricing-models-1",
+      "heading_path": [
+        "Content Domain 4: Billing, Pricing, and Support",
+        "Task Statement 4.1: Compare AWS pricing models."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-task4.1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Compute purchasing options (for example, On-Demand Instances, Reserved Instances, Spot Instances, Savings Plans, Dedicated Hosts, Dedicated Instances, Capacity Reservations)\n+ Storage options and tiers",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Identifying when to use various compute purchasing options\n+ Describing Reserved Instance flexibility\n+ Describing Reserved Instance behavior in AWS Organizations\n+ Understanding incoming data transfer costs and outgoing data transfer costs (for example, from one Region to another Region, within the same Region)\n+ Understanding pricing options for various storage options and tiers",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d4#task-statement-4-2-understand-resources-for-billing-budget-and-cost-management-1",
+      "heading_path": [
+        "Content Domain 4: Billing, Pricing, and Support",
+        "Task Statement 4.2: Understand resources for billing, budget, and cost management."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-task4.2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Billing support and information\n+ Pricing information for AWS services\n+ AWS Organizations\n+ AWS cost allocation tags",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Understanding the appropriate uses and capabilities of AWS Budgets and AWS Cost Explorer\n+ Understanding the appropriate uses and capabilities of AWS Pricing Calculator\n+ Understanding AWS Organizations consolidated billing and allocation of costs\n+ Understanding various types of cost allocation tags and their relation to billing reports (for example, AWS Cost and Usage Report)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d4#task-statement-4-3-identify-aws-technical-resources-and-aws-support-options-1",
+      "heading_path": [
+        "Content Domain 4: Billing, Pricing, and Support",
+        "Task Statement 4.3: Identify AWS technical resources and AWS Support options."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain4.html#cloud-practitioner-02-task4.3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Resources and documentation available on official AWS websites\n+ AWS Support plans\n+ Role of the AWS Partner Network, including independent software vendors and system integrators\n+ AWS Support Center",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Locating AWS whitepapers, blogs, and documentation on official AWS websites\n+ Identifying and locating AWS technical resources (for example, AWS Prescriptive Guidance, AWS Knowledge Center, AWS re:Post)\n+ Identifying AWS Support options for AWS customers (for example, customer service and communities, Basic Support, AWS Business Support\\+, AWS Enterprise Support, AWS Unified Operations)\n+ Identifying the role of Trusted Advisor, AWS Health Dashboard, and the AWS Health API to help manage and monitor environments for cost optimization\n+ Identifying the role of the AWS Trust and Safety team to report abuse of AWS resources\n+ Understanding the role of AWS Partners (for example, AWS Marketplace, independent software vendors, system integrators)\n+ Identifying the benefits of being an AWS Partner (for example, partner training and certification, partner events, partner volume discounts)\n+ Identifying the key services that AWS Marketplace offers (for example, cost management, governance and entitlement)\n+ Identifying technical assistance options available at AWS (for example, AWS Professional Services, AWS solutions architects)",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "NEEDS_REVIEW: Markdown parser supports a limited syntax subset",
+    "Draft 2020-12 validator unavailable; validated with Draft 7"
+  ]
+}

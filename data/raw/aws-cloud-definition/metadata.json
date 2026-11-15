@@ -1,0 +1,10 @@
+{
+  "source_id": "aws-cloud-definition",
+  "canonical_url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/what-is-cloud-computing.html",
+  "retrieval_url": null,
+  "source_format": "markdown",
+  "license": "CC BY-SA 4.0 (documentation; verify applicable terms)",
+  "attribution": "Amazon Web Services",
+  "raw_sha256": "555d7cc25a05ad37678132ebde767802562e36f1fbe004fb463f7d6b23489154",
+  "retrieved_at": "2026-11-06T17:24:26.848084+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "document_id": "clf-technologies",
+  "title": "Technologies and Concepts",
+  "language": "en",
+  "document_type": "exam_guide",
+  "source": {
+    "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-technologies-concepts.html",
+    "retrieval_url": null,
+    "source_format": "markdown",
+    "license": "CC BY-SA 4.0 (documentation; verify applicable terms)",
+    "attribution": "Amazon Web Services"
+  },
+  "retrieved_at": "2026-11-06T17:24:26.726325+00:00",
+  "raw_sha256": "5560f4a149fe7571975e7f5e5c1c734974b520bebdca93d8bd10fa9fe12529d6",
+  "normalized_sha256": "ab5914afc78d53bd4c1c5a1e95b6a1c5cd203aef3fde81b2e413c89a09f3d835",
+  "exam_domains": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "aws_services": [],
+  "sections": [
+    {
+      "section_id": "clf-technologies#technologies-and-concepts-1",
+      "heading_path": [
+        "Technologies and Concepts"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/clf-technologies-concepts.html#clf-technologies-concepts",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The following list contains technologies and concepts that might appear on the exam. This list is non-exhaustive and is subject to change. The order and placement of the items in this list is no indication of their relative weight or importance on the exam:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ APIs\n+ Benefits of migrating to the AWS Cloud\n+ AWS Cloud Adoption Framework (AWS CAF)\n+ AWS Compliance\n+ Compute\n+ Cost management\n+ Databases\n+ Amazon EC2 instance types (for example, Reserved Instances, On-Demand Instances, Spot Instances)\n+ AWS global infrastructure (for example, AWS Regions, Availability Zones)\n+ Infrastructure as code (IaC)\n+ AWS Knowledge Center\n+ Machine learning\n+ Management and governance\n+ Migration and data transfer\n+ Network services\n+ AWS Partner Network (APN)\n+ AWS Prescriptive Guidance\n+ AWS Pricing Calculator\n+ AWS Professional Services\n+ AWS re:Post\n+ AWS SDKs\n+ Security\n+ AWS Security Blog\n+ AWS shared responsibility model\n+ AWS solutions architects\n+ Storage\n+ AWS Support Center\n+ AWS Support plans\n+ AWS Well-Architected Framework",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "NEEDS_REVIEW: Markdown parser supports a limited syntax subset",
+    "Draft 2020-12 validator unavailable; validated with Draft 7"
+  ]
+}

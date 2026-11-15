@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "document_id": "clf-d2",
+  "title": "Content Domain 2: Security and Compliance",
+  "language": "en",
+  "document_type": "exam_guide",
+  "source": {
+    "canonical_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html",
+    "retrieval_url": null,
+    "source_format": "markdown",
+    "license": "CC BY-SA 4.0 (documentation; verify applicable terms)",
+    "attribution": "Amazon Web Services"
+  },
+  "retrieved_at": "2026-11-06T17:24:26.529354+00:00",
+  "raw_sha256": "e301a3be8d01f76b835111960f41803bd5852772dac03524d23404e099ed8b23",
+  "normalized_sha256": "339ca53b621e6d7ea8673b4b420b37b2d8e3c161386ce1d175afe1bde621c5bd",
+  "exam_domains": [
+    "2"
+  ],
+  "aws_services": [],
+  "sections": [
+    {
+      "section_id": "clf-d2#content-domain-2-security-and-compliance-1",
+      "heading_path": [
+        "Content Domain 2: Security and Compliance"
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-domain2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Domain 2 covers Security and Compliance and represents 30% of the scored content on the exam.",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Topics",
+          "links": [],
+          "attributes": {
+            "role": "bold_label"
+          }
+        },
+        {
+          "type": "list",
+          "text": "+ Task Statement 2.1: Understand the AWS shared responsibility model.\n+ Task Statement 2.2: Understand AWS Cloud security, governance, and compliance concepts.\n+ Task Statement 2.3: Identify AWS access management capabilities.\n+ Task Statement 2.4: Identify components and resources for security.",
+          "links": [
+            {
+              "label": "Task Statement 2.1: Understand the AWS shared responsibility model.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.1"
+            },
+            {
+              "label": "Task Statement 2.2: Understand AWS Cloud security, governance, and compliance concepts.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.2"
+            },
+            {
+              "label": "Task Statement 2.3: Identify AWS access management capabilities.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.3"
+            },
+            {
+              "label": "Task Statement 2.4: Identify components and resources for security.",
+              "url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d2#task-statement-2-1-understand-the-aws-shared-responsibility-model-1",
+      "heading_path": [
+        "Content Domain 2: Security and Compliance",
+        "Task Statement 2.1: Understand the AWS shared responsibility model."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.1",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS shared responsibility model",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Recognizing the components of the AWS shared responsibility model\n+ Describing the customer's responsibilities on AWS\n+ Describing AWS responsibilities\n+ Describing responsibilities that the customer and AWS share\n+ Describing how AWS responsibilities and customer responsibilities can shift, depending on the service used (for example, Amazon RDS, AWS Lambda, Amazon EC2)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d2#task-statement-2-2-understand-aws-cloud-security-governance-and-compliance-concepts-1",
+      "heading_path": [
+        "Content Domain 2: Security and Compliance",
+        "Task Statement 2.2: Understand AWS Cloud security, governance, and compliance concepts."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ AWS compliance and governance concepts\n+ Benefits of cloud security (for example, encryption)\n+ Where to capture and locate logs that are associated with cloud security",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Identifying where to find AWS compliance information (for example, AWS Artifact)\n+ Understanding compliance needs among geographic locations or industries (for example, AWS compliance)\n+ Describing how customers secure resources on AWS (for example, Amazon Inspector, AWS Security Hub, Amazon GuardDuty, AWS Shield)\n+ Identifying encryption options (for example, encryption in transit, encryption at rest)\n+ Recognizing services that aid in governance and compliance (for example, monitoring with Amazon CloudWatch; auditing with AWS CloudTrail and AWS Config; reporting with access reports)\n+ Recognizing compliance requirements that vary among AWS services",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d2#task-statement-2-3-identify-aws-access-management-capabilities-1",
+      "heading_path": [
+        "Content Domain 2: Security and Compliance",
+        "Task Statement 2.3: Identify AWS access management capabilities."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Identity and access management (for example, AWS Identity and Access Management [IAM])\n+ Importance of protecting the AWS root user account\n+ Principle of least privilege\n+ AWS IAM Identity Center",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Understanding access keys, password policies, and credential storage (for example, AWS Secrets Manager, AWS Systems Manager)\n+ Identifying authentication methods in AWS (for example, multi-factor authentication [MFA], IAM Identity Center, cross-account IAM roles)\n+ Defining groups, users, custom policies, and managed policies in compliance with the principle of least privilege\n+ Identifying tasks that only the account root user can perform\n+ Understanding which methods can achieve root user protection\n+ Understanding the types of identity management (for example, federated)",
+          "links": []
+        }
+      ]
+    },
+    {
+      "section_id": "clf-d2#task-statement-2-4-identify-components-and-resources-for-security-1",
+      "heading_path": [
+        "Content Domain 2: Security and Compliance",
+        "Task Statement 2.4: Identify components and resources for security."
+      ],
+      "anchor_url": "https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02-domain2.html#cloud-practitioner-02-task2.4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Knowledge of:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Security capabilities that AWS provides\n+ Security-related documentation that AWS provides",
+          "links": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Skills in:",
+          "links": []
+        },
+        {
+          "type": "list",
+          "text": "+ Describing AWS security features and services (for example, AWS WAF, AWS Firewall Manager, AWS Shield, Amazon GuardDuty)\n+ Understanding that third-party security products are available from AWS Marketplace\n+ Identifying where AWS security information is available (for example, AWS Knowledge Center, AWS Security Center, AWS Security Blog)\n+ Understanding the use of AWS services for identifying security issues (for example, AWS Trusted Advisor)",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "NEEDS_REVIEW: Markdown parser supports a limited syntax subset",
+    "Draft 2020-12 validator unavailable; validated with Draft 7"
+  ]
+}
